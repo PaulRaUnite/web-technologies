@@ -39,30 +39,30 @@ header ul, footer ul, .menu ul {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
+    width: 100%;
 }
 
 .container > * {
-    flex: 1 1 auto;
+    display: inline-block;
 }
 
 .menu {
     width: 12%;
     padding: 0 10px 20px 10px;
+    float: left;
 }
 
 main {
     padding: 0 10px 10px 10px;
-    width: 55%;
+    width: 53%;
     margin: 0 2%;
 }
 
 .news {
     padding: 0 10px 20px 10px;
-    width: 29%;
+    width: 25%;
+    float: right;
 }
 
 .news article {
