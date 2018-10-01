@@ -51,19 +51,22 @@ header ul, footer ul, .menu ul {
 
 .menu {
     width: 12%;
-    margin: 0 2% 0 0;
     padding: 0 10px 20px 10px;
 }
 
 main {
     padding: 0 10px 10px 10px;
     width: 55%;
+    margin: 0 2%;
 }
 
 .news {
     padding: 0 10px 20px 10px;
-    margin: 0 0 0 2%;
     width: 29%;
+}
+
+.news article {
+    background-color: aliceblue;
 }
 
 .menu, main, .news {
