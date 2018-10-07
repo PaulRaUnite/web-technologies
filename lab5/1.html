@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ::selection {
+            color: blueviolet;
+        }
+
+        img[id^="cs"] {
+            height: 200px;
+        }
+
+        img[src$=".jpg"] {
+            width: 500px;
+        }
+
+        li {
+            color: red;
+        }
+
+        li:first-child {
+            color: green;
+        }
+
+        li:nth-child(3) {
+            color: blue;
+        }
+
+        li:last-child {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+<div>Block 1</div>
+<div>Block 2</div>
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<img src="html5.jpg">
+<img id="css" src="css3.jpg">
+<ul>
+    <li><a href="#">Item 1</a></li>
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Item 3</a></li>
+    <li><a href="#">Item 4</a></li>
+</ul>
+</body>
+</html>
