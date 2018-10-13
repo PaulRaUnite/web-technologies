@@ -103,3 +103,13 @@ footer {
     top: -10px;
     left: 100%;
 }
+
+
+nav a:link, .menu a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown li > .dropdown {
+    border: solid 1px gray;
+}

@@ -53,3 +53,21 @@ table {
 table * {
     border: 1px solid black;
 }
+.container {
+    width: 100%;
+}
+table th {
+    background-color: gray;
+}
+
+aside {
+    display: inline-block;
+    width: 40%;
+}
+
+main {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin: 0 0 0 10%;
+}

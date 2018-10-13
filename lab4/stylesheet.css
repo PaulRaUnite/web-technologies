@@ -38,6 +38,11 @@ header ul, footer ul, .menu ul {
     margin: 0 0 10px 0;
 }
 
+nav a:link, .menu a:link {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     margin: 20px 0;
     width: 100%;
