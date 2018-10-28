@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+}
+
+header, footer, .container {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    min-height: 100px;
+    background-color: aqua;
+}
+
+footer {
+    min-height: 60px;
+    background-color: cornflowerblue;
+    float: left;
+}
+
+main {
+    width: calc(80% - 40px);
+    background-color: bisque;
+}
+
+aside {
+    width: calc(20% - 40px);
+    background-color: aquamarine;
+}
+
+main, aside {
+    display: inline-block;
+    float: left;
+    padding: 20px;
+}
