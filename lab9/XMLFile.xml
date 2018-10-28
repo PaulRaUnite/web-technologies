@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="transformer.xsl"?>
+<group name="МФ11">
+    <student fam="Нестеренко" name="Игорь" sname="Игоревич">
+        <predmet name="Математика" value="5"/>
+        <predmet name="Физика" value="5"/>
+        <predmet name="Английский язык" value="5"/>
+        <predmet name="Информатика" value="5"/>
+    </student>
+    <student fam="Нестеренко" name="Сергей" sname="Игоревич">
+        <predmet name="Математика" value="5"/>
+        <predmet name="Физика" value="5"/>
+        <predmet name="Английский язык" value="4"/>
+        <predmet name="Информатика" value="0"/>
+    </student>
+    <student fam="Кравчук" name="Игорь" sname="Игоревич">
+        <predmet name="Математика" value="3"/>
+        <predmet name="Физика" value="4"/>
+        <predmet name="Английский язык" value="4"/>
+        <predmet name="Информатика" value="0"/>
+    </student>
+    <student fam="Семченко" name="Николай" sname="Сергеевич">
+        <predmet name="Математика" value="2"/>
+        <predmet name="Физика" value="3"/>
+        <predmet name="Английский язык" value="4"/>
+        <predmet name="Информатика" value="3"/>
+    </student>
+    <student fam="Шумнов" name="Федор" sname="Игоревич">
+        <predmet name="Математика" value="4"/>
+        <predmet name="Физика" value="4"/>
+        <predmet name="Английский язык" value="4"/>
+        <predmet name="Информатика" value="5"/>
+    </student>
+    <student fam="Опанасенко" name="Василий" sname="Виктрович">
+        <predmet name="Математика" value="5"/>
+        <predmet name="Физика" value="3"/>
+        <predmet name="Английский язык" value="4"/>
+        <predmet name="Информатика" value="2"/>
+    </student>
+    <student fam="Игнатенко" name="Алина" sname="Игоревна">
+        <predmet name="Математика" value="5"/>
+        <predmet name="Физика" value="4"/>
+        <predmet name="Английский язык" value="4"/>
+        <predmet name="Информатика" value="2"/>
+    </student>
+</group>

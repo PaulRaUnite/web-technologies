@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="department.xsl"?>
+<sotr name="Аналитический">
+    <s name="Игорь" fam="Прокопенко"/>
+    <s name="Юлия" fam="Волга"/>
+    <s name="Сергей" fam="Крамаренко"/>
+    <s name="Марина" fam="Авдеева"/>
+</sotr>

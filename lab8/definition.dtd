@@ -1,0 +1,8 @@
+<!ELEMENT document (page)*>
+<!ELEMENT page (number, content)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT content (p | img)*>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT img (source, caption)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT caption (#PCDATA)>

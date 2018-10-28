@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="department.xsl"?>
+<sotr name="Расчетный">
+    <s name="Анна" fam="Шаповал"/>
+    <s name="Юлия" fam="Березняк"/>
+    <s name="Галина" fam="Головенко"/>
+    <s name="Марина" fam="Юдина"/>
+</sotr>

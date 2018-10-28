@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="company.xsl"?>
+<company name="Кровля">
+    <adress>Харьков</adress>
+    <telefon>12-12-12</telefon>
+    <mail>ini@it.com</mail>
+</company>

@@ -1,0 +1,26 @@
+article {
+    border: black solid 1px;
+    width: 600px;
+    height: 800px;
+    padding: 10px;
+}
+
+article header {
+    border-bottom: black double 3px;
+}
+
+article main {
+
+}
+
+header span {
+    display: inline-block;
+    width: 50%;
+}
+header span:first-child {
+    text-align: left;
+}
+
+header span:last-child {
+    text-align: right;
+}
