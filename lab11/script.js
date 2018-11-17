@@ -16,7 +16,8 @@ function create_matrix(name, id_prefix, size) {
         let ids_rows = [];
         for (let j = 0; j < size; j++) {
             let cell_input = document.createElement('input');
-            cell_input.setAttribute('type', 'text');
+            cell_input.setAttribute('type', 'number');
+            cell_input.setAttribute('step', 'any');
             cell_input.value = '0';
             let id = i * size + j;
             let id_str = id_prefix + id.toString();
@@ -36,7 +37,7 @@ function create_matrix(name, id_prefix, size) {
 function get_matrix_values(id_matrix) {
     return id_matrix.map(row => row.map(v => {
         let raw = document.getElementById(v).value;
-        return parseInt(raw);
+        return parseFloat(raw);
     }));
 }
 
