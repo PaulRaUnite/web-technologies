@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 12</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<script src="definitions.js"></script>
+<script src="script.js"></script>
+<div class="left">
+    <form action="">
+        <label title="rows">Matrix A rows count</label>
+        <input id="a_rows" type="number" title="rows" value="3"
+               onchange="recreate_a_matrix('a_rows', 'a_columns', 'a_container')">
+        <label title="columns">Matrix A columns count</label>
+        <input id="a_columns" type="number" title="columns" value="3"
+               onchange="recreate_a_matrix('a_rows', 'a_columns', 'a_container')">
+    </form>
+    <div id="a_container">
+
+    </div>
+</div>
+<div class="right">
+    <form action="">
+        <label title="rows">Matrix B rows count</label>
+        <input id="b_rows" type="number" title="rows" value="3"
+               onchange="recreate_b_matrix('b_rows', 'b_columns', 'b_container')">
+        <label title="columns">Matrix B columns count</label>
+        <input id="b_columns" type="number" title="columns" value="3"
+               onchange="recreate_b_matrix('b_rows', 'b_columns', 'b_container')">
+    </form>
+    <div id="b_container">
+
+    </div>
+</div>
+<div class="controls">
+    <form action="" id="operation">
+        <input type="radio" name="operation" value="add" checked> Add<br>
+        <input type="radio" name="operation" value="sub"> Sub<br>
+        <input type="radio" name="operation" value="mul"> Mul<br>
+    </form>
+    <button onclick="performOperation('c_container', 'operation')">Perform</button>
+</div>
+<div class="result">
+    <p>Result</p>
+    <div id="c_container">
+
+    </div>
+</div>
+<script>
+    recreate_a_matrix('a_rows', 'a_columns', 'a_container');
+    recreate_b_matrix('b_rows', 'b_columns', 'b_container');
+</script>
+</body>
+</html>
