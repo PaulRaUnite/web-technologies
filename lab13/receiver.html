@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 13. Receiver</title>
+    <style>
+        table {
+            min-width: 400px;
+            background: lightgray;
+        }
+
+        tr {
+            background: white;
+        }
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<table id="container">
+    <tr>
+        <th>Key</th>
+        <th>Value</th>
+    </tr>
+</table>
+<script>
+    let url = new URL(window.location.href);
+    let table = document.getElementById('container');
+    url.searchParams.forEach((v, k) => {
+        let row = document.createElement('tr');
+        let key = document.createElement('td');
+        key.innerText = k;
+        let value = document.createElement('td');
+        value.innerText = v;
+        row.appendChild(key);
+        row.appendChild(value);
+        table.appendChild(row);
+    });
+</script>
+</body>
+</html>
