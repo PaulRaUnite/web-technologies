@@ -18,7 +18,7 @@ class Matrix {
         }
     }
 
-    dimentions() {
+    dimensions() {
         return [this.rows, this.columns]
     }
 
