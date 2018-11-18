@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 14</title>
+    <style>
+        body {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        form {
+            margin-top: 10px;
+            background: lightgray;
+            padding: 20px;
+        }
+
+        form header {
+            margin-bottom: 10px;
+        }
+
+        form div {
+            width: 100%;
+        }
+
+        form div label {
+            display: inline-block;
+            width: 20%;
+        }
+
+        form div input {
+            min-width: 30%;
+        }
+
+        form div {
+            margin-top: 6px;
+        }
+
+        .canvas_container {
+            margin-top: 10px;
+            padding: 10px;
+            background: lightgray;
+        }
+
+        canvas {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<script src="script.js"></script>
+<form action="#">
+    <header>Broken line drawing</header>
+    <label></label>
+    <input type="file" id="files" accept=".txt,.csv" multiple required onchange="draw(this.files, 'output')">
+</form>
+<form action="#">
+    <header>Text printing</header>
+    <div>
+        <label>Text to print</label>
+        <input type="text" id="text_to_print" required>
+    </div>
+    <div>
+        <label>X</label>
+        <input type="number" id="x" value="0" required>
+    </div>
+    <div>
+        <label>Y</label>
+        <input type="number" id="y" value="0" required>
+    </div>
+    <div>
+        <label>Font</label>
+        <input type="number" id="font_size" value="0" required>
+    </div>
+    <button onclick="print('text_to_print', 'x', 'y', 'font_size', 'output');">Print</button>
+</form>
+<div class="canvas_container">
+    <canvas width="980px" height="600px" id="output">
+
+    </canvas>
+</div>
+</body>
+</html>
